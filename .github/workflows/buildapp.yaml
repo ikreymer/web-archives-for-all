@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: 14.x
+        node-version: [14.x]
         os: [macos-10.14, ubuntu-latest]
         platform: [windows, linux]
         exclude:
